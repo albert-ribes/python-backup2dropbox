@@ -9,8 +9,8 @@ import sys
 import gzip
 
 # DROPBOX PERSONAL DATA - TO BE FILLED IN
-db_access_token=''
-db_path=''
+db_access_token='XXXXXXXX'
+db_path='XXXXXXXX'
 
 # PROGRAM ARGUMENTS
 if len(sys.argv) > 1:
