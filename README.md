@@ -4,4 +4,4 @@ A simple Linux-based Python3 script which compresses and backups a folder and it
 
 In order to work, fill-in the Dropbox variables `db_access_token` & `db_path` found in dbx_data.py.
 
-Usage: `Usage: ./bck2dbx.py [SOURCE_PATH]`
+Usage: `bck2dbx.py [SOURCE_PATH]`
