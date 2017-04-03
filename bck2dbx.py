@@ -32,14 +32,9 @@ else:
 now=time.strftime("%Y%m%d_%H%M%S", time.localtime())
 
 #VARIABLES
-FNULL = open(os.devnull, 'w')
-p1 = subprocess.Popen(["pwd"], stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-out, err = p1.communicate()
-path=str(out)[2:-3]+'/'
 filename='bckp-'+now+'.tar.gz'
 
 print('\n[INFO] Starting program. It will backup `' + folder + '` to `' + dbx_data.dbx_path + filename)
-print('[INFO] Actual path: `'+ path+'`')
 print("[INFO] Authenticating at Dropbox... ", end="")
 sys.stdout.flush()
 
