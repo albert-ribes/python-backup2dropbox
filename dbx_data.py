@@ -1,0 +1,3 @@
+#DROPBOX PERSONAL DATA
+dbx_access_token='XXXXXXXX'
+dbx_path='/XXXXXXXX/YYYYYYYY/'
